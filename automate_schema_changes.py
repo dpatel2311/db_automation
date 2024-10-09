@@ -1,12 +1,12 @@
 import pymysql
 #from pymysql import connect
 # Create the database connection directly
-"""
+
 connection = pymysql.connect(
-    host='dbauto.mysql.database.azure.com',  
-    user='rootdb',  
+    host='companydb.mysql.database.azure.com',  
+    user='assignment2',  
     password='Secret55',  
-    database='dpatel',
+    database='companydb',
 )
 """
 ## Added this connection string to test ## 
@@ -17,6 +17,7 @@ connection = pymysql.connect(
     password='custom123',  
     database='my_database',
 )
+"""
 # Path to the SQL file
 script_path = 'update_projects_schema.sql'
 
