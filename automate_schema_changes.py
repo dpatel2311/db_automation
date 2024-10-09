@@ -19,7 +19,7 @@ connection = pymysql.connect(
 )
 """
 # Path to the SQL file
-script_path = 'update_projects_schema.sql'
+script_path = 'add_departments.sql'
 
 # Read the SQL script from the file
 with open(script_path, 'r') as file:
