@@ -6,7 +6,7 @@ CREATE TABLE departments (
 
 INSERT INTO departments (department_name, location) VALUES
 ('HR', 'kitchener'),
-('Engineering', 'waterloo');
+('Engineering', 'waterloo'),
 ('IT', 'cambridge');
 
 CREATE TABLE employees (
